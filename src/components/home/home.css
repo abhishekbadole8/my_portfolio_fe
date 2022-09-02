@@ -1,0 +1,20 @@
+ .about-area {
+     padding: 8rem 5rem;
+ }
+ 
+ .about-area .about-title h2>span {
+     display: block;
+     font: normal bold 49px/ 60px var(--roboto);
+     letter-spacing: 10px;
+ }
+ 
+ .about-area .about-title .paragraph>p {
+     padding: .4rem 0;
+ }
+ 
+ .home {
+     background: url(./img/home-banner.png);
+     background-repeat: no-repeat;
+     background-position: 0% 50%;
+     background-attachment: fixed;
+ }

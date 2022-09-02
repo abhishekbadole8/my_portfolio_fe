@@ -1,0 +1,33 @@
+.project {
+    background: url(./img/home-banner.png);
+    background-repeat: no-repeat;
+    background-position: 0% 50%;
+    background-attachment: fixed;
+}
+
+.project-area .button-group button {
+    background: transparent;
+    border: none;
+    font: normal 500 16px/130px var(--roboto);
+    text-transform: uppercase;
+}
+
+.project-area .button-group button+button {
+    padding-left: 3rem;
+}
+
+.project-area .grid .our-project>.title h4 {
+    font: normal 700 25px/12px var(--roboto);
+}
+
+.card-hover {
+    /* background: rgba(248, 252, 253, 0.973); */
+    /* padding: 2rem 0; */
+    /* width: 16rem; */
+    /* margin: 5rem .5rem; */
+    transition: box-shadow .7s ease;
+}
+
+.card-hover:hover {
+    box-shadow: var(--box-shadow);
+}

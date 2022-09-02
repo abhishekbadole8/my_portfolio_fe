@@ -1,0 +1,26 @@
+.services-area .services-title h1 {
+    font-size: 35px;
+}
+
+.services-area .services {
+    background: rgba(242, 242, 255, 0.973);
+    transition: box-shadow .7s ease;
+}
+
+.services-area .services:hover {
+    box-shadow: var(--box-shadow);
+}
+
+.decor {
+    text-decoration: none;
+    list-style: none;
+    font-size: 1.25rem;
+    line-height: 45px;
+    padding: 0px;
+}
+
+.skill {
+    background: url(./img/skills-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
