@@ -1,6 +1,7 @@
 import React from 'react';
 import "./about.css";
 import aboutUs from './img/about-us.png';
+import resume from "../../resume/RiteshWebDev_Resume.pdf";
 const About = () => {
     return (
         <>
@@ -27,7 +28,7 @@ const About = () => {
                                 </p>
 
                             </div>
-                            <button type="button" className="btn button primary-button text-uppercase">Download cv</button>
+                            <a href={resume} rel='noreffer' download><button type="button" className="btn button primary-button text-uppercase">Download cv</button></a>
                         </div>
                     </div>
                 </div>

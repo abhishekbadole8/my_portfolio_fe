@@ -1,7 +1,7 @@
 import React from 'react';
 import "./home.css";
 import bannerImg from "./img/banner-image.png";
-
+import resume from "../../resume/RiteshWebDev_Resume.pdf";
 
 const Home = () => {
     return (
@@ -24,8 +24,8 @@ const Home = () => {
                                     <div className="d-flex flex-row">
                                         <a href="#contact" rel='noreffer'> <button type="button" className="btn button primary-button mr-4 text-uppercase">hire
                                             me</button></a>
-                                        <button type="button" className="btn button secondary-button text-uppercase">Get
-                                            cv</button>
+                                        <a href={resume} rel='noreffer' download> <button type="button" className="btn button secondary-button text-uppercase">Get
+                                            cv</button></a>
                                     </div>
                                 </div>
                             </div>
