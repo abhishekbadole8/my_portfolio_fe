@@ -17,7 +17,7 @@ const Project = () => {
                     </div>
                     <div className="row grid d-flex justify-content-between align-items-center">
                         <Pro img={p1} title="Notes App MERN" liveLink="https://rkeepnotes.herokuapp.com/" gitLink="https://github.com/rnrathod16/MERN_rKeep_Notes" />
-                        <Pro img={p2} title="Portfolio Builder" liveLink="https://portbuilder.netlify.app/" gitLink="https://github.com/rnrathod16/Portfolio_Builder_Frontend" />
+                        <Pro img={p2} title="Expense Tracker" liveLink="https://expensetrackrn.netlify.app/" gitLink="https://github.com/rnrathod16/expenseTracker_Frontend" />
 
                         <div className="col-md-3 element-item latest card-hover">
                             <div className="our-project">
