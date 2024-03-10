@@ -21,13 +21,12 @@
 }
 
 .card-hover {
-    /* background: rgba(248, 252, 253, 0.973); */
-    /* padding: 2rem 0; */
-    /* width: 16rem; */
-    /* margin: 5rem .5rem; */
     transition: box-shadow .7s ease;
 }
 
 .card-hover:hover {
     box-shadow: var(--box-shadow);
+}
+.demo{
+    margin-top: 16px;
 }

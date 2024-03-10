@@ -1,9 +1,8 @@
 .header_area .main-menu .nav-item .nav-link {
-    /* font: normal 500 15px/2px var(--roboto); */
     text-transform: uppercase;
     padding: 0.9rem;
     color: var(--title-color);
-}
+ }
 
 .header_area .main-menu .navbar-nav .active a {
     background: var(--gradient-color);
@@ -29,4 +28,16 @@
     box-shadow: var(--box-shadow);
     z-index: 999;
     transition: background 1s ease;
+}
+
+.navbar-logo {
+    font-family: 'Sixtyfour';
+    font-size: 20px;
+    font-weight: 500;
+}
+
+@media screen and (max-width:550px) {
+    .navbar-logo{
+        font-size: 16px;
+    }
 }

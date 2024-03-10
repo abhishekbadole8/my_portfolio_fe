@@ -1,7 +1,8 @@
 import React from 'react';
 import "./about.css";
 import aboutUs from './img/about-us.png';
-import resume from "../../resume/RiteshWebDev_Resume.pdf";
+import resume from "../../resume/Resume_Abhishek_Badole_Fullstack_Developer.pdf";
+
 const About = () => {
     return (
         <>

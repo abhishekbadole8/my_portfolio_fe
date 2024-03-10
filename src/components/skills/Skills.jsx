@@ -6,6 +6,24 @@ import s3 from "./img/s3.png";
 import Skill from './Skill';
 
 const Skills = () => {
+    const skills = [
+        {
+            category: "Frontend Development",
+            img: s1,
+            skills: ["HTML", "CSS", "JavaScript", "ReactJS"]
+        },
+        {
+            category: "Backend Development",
+            img: s2,
+            skills: ["NodeJS", "ExpressJS", "MySQL"]
+        },
+        {
+            category: "Database and General",
+            img: s3,
+            skills: ["MongoDb", "Mysql", "Git", "Tailwind"]
+        }
+    ];
+
     return (
         <>
             <section className="services-area skill mt-5" id="skills">
@@ -20,9 +38,9 @@ const Skills = () => {
                     </div>
                     <div className="container services-list">
                         <div className="row d-flex justify-content-center align-items-center">
-                            <Skill img={s1} name="Frontend" skill1="HTML" skill2="CSS" skill3="Javascript" skill4="ReactJS" skill5="Bootstrap" />
-                            <Skill img={s2} name="Backend" skill1="NodeJS" skill2="MongoDB" skill3="ExpressJS" skill4="PHP" skill5="MySql" />
-                            <Skill img={s3} name="General" skill1="C++" skill2="Linux" skill3="Git" skill4="Unqork" skill5="Networking" />
+                            {skills.map((skill, index) => {
+                                return <Skill key={index} img={skill.img} name={skill.category} skills={skill.skills} />
+                            })}
                         </div>
                     </div>
                 </div>

@@ -61,11 +61,11 @@ const Contact = () => {
                                 <div className="col-md-4">
                                     <img src={email} alt="portfolio-1" className="img-fluid w-75 h-75" />
                                 </div>
-                                <div className="contact_option col-md-4">
+                                <div className="contact_option col-md-5">
                                     <MailOutlineIcon className='contact_option_icon' />
                                     <h4 className='colo1'>Email</h4>
-                                    <h5 className='colo'>rnrathod16@gmail.com</h5>
-                                    <a href="mailto:rnrathod16@gmail.com" rel="noreferrer" target="_blank">Send a Message</a>
+                                    <h5 className='colo'>abhishekbadole12@gmail.com</h5>
+                                    <a href="mailto:abhishekbadole12@gmail.com" rel="noreferrer" target="_blank">Send a Message</a>
                                 </div>
 
                             </div>

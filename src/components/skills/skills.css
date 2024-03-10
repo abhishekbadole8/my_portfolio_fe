@@ -17,6 +17,12 @@
     font-size: 1.25rem;
     line-height: 45px;
     padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.decor li {
+    padding: 2px 12px;
 }
 
 .skill {

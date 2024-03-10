@@ -1,7 +1,7 @@
 import React from 'react';
 import "./home.css";
 import bannerImg from "./img/banner-image.png";
-import resume from "../../resume/RiteshWebDev_Resume.pdf";
+import resume from "../../resume/Resume_Abhishek_Badole_Fullstack_Developer.pdf";
 
 const Home = () => {
     return (
@@ -16,9 +16,9 @@ const Home = () => {
                         </div>
                         <div className="col-lg-6 col-md-12  d-flex justify-content-center align-items-center order-md-first">
 
-                            <div className="site-title">
+                            <div className="site-title text-center">
                                 <h3 className="title-text">Hey</h3>
-                                <h1 className="title-text text-uppercase">I am Ritesh</h1>
+                                <h1 className="title-text text-uppercase">I am Abhishek</h1>
                                 <h4 className="title-text text-uppercase cen">Full Stack Developer</h4>
                                 <div className="site-buttons">
                                     <div className="d-flex flex-row">
